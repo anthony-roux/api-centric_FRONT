@@ -1,10 +1,9 @@
 
 import React from 'react';
+import './Article.scss';
 
 function Article() {
-  return <div style={{
-    'color': 'red'
-  }}>Coucou toi</div>
+  return <div className="article">Coucou toi</div>
 }
 
 
