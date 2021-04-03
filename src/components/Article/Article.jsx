@@ -2,7 +2,9 @@
 import React from 'react';
 
 function Article() {
-  return <div>Coucou toi</div>
+  return <div style={{
+    'color': 'red'
+  }}>Coucou toi</div>
 }
 
 
